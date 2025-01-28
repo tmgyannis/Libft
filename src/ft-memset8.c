@@ -8,10 +8,10 @@ int main(void)
 {
     char str[11] = "HelloWorld"; // Tableau de 10 caractères + '\0'
 
-    // Utilisation de ft_memset pour remplir les 5 premiers caractères avec '*'
-    ft_memset(str, '*', 5);
+    // Utilisation de ft_memset pour remplir les 5 premiers caractères avec '@'
+    ft_memset(str, '@', 6);
 
-    printf("Résultat : %s\n", str); // Résultat attendu : *****World
+    printf("Résultat : %s\n", str); // Résultat attendu : @@@@@@orld
 
     return 0;
 }
