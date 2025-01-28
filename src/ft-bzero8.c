@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+void	ft_bzero(void *s, size_t n)
+{
+	memset(s, 0, n);
+}
+
 int main(void)
 {
     char str[11] = "HelloWorld"; // Tableau de 10 caractères + '\0'
@@ -20,3 +25,4 @@ int main(void)
 
     return 0;
 }
+
