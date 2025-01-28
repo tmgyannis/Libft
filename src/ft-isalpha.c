@@ -12,7 +12,6 @@
 
 #include <stdio.h>
 
-
 // Déclaration de la fonction ft_isalpha
 int ft_isalpha(int c);
 
